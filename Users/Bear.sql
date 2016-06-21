@@ -1,0 +1,4 @@
+CREATE USER [Bear]
+	FOR LOGIN [Bear]
+	WITH DEFAULT_SCHEMA = [dbo]
+GO

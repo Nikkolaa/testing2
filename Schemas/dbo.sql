@@ -1,0 +1,36 @@
+ALTER AUTHORIZATION
+	ON SCHEMA::[dbo]
+	TO [dbo]
+GO
+GRANT EXECUTE
+	ON SCHEMA::[dbo]
+	TO [Baz]
+GO
+GRANT EXECUTE
+	ON SCHEMA::[dbo]
+	TO [Bear]
+GO
+GRANT INSERT
+	ON SCHEMA::[dbo]
+	TO [Baz]
+GO
+GRANT INSERT
+	ON SCHEMA::[dbo]
+	TO [Bear]
+GO
+GRANT SELECT
+	ON SCHEMA::[dbo]
+	TO [Baz]
+GO
+GRANT SELECT
+	ON SCHEMA::[dbo]
+	TO [Bear]
+GO
+GRANT UPDATE
+	ON SCHEMA::[dbo]
+	TO [Baz]
+GO
+GRANT UPDATE
+	ON SCHEMA::[dbo]
+	TO [Bear]
+GO

@@ -1,0 +1,4 @@
+CREATE USER [Novi ]
+	FOR LOGIN [Novi ]
+	WITH DEFAULT_SCHEMA = [dbo]
+GO
