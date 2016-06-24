@@ -1,0 +1,4 @@
+CREATE USER [Fino]
+	FOR LOGIN [Fino]
+	WITH DEFAULT_SCHEMA = [dbo]
+GO
