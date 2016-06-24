@@ -213,5 +213,9 @@ EXEC sp_addextendedproperty N'MS_Description', N'Number of available vacation ho
 GO
 EXEC sp_addextendedproperty N'MS_Description', N'Employee information such as salary, department, and title.', 'SCHEMA', N'HumanResources', 'TABLE', N'Employee', NULL, NULL
 GO
+GRANT TAKE OWNERSHIP
+	ON [HumanResources].[Employee]
+	TO [Adam]
+GO
 ALTER TABLE [HumanResources].[Employee] SET (LOCK_ESCALATION = TABLE)
 GO
